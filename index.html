@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Supam Thapa | Student & Web Developer</title>
+
+    <meta
+        name="description"
+        content="Portfolio website of Supam Thapa, a student and aspiring web developer from Butwal, Nepal."
+    >
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                Supam<span>.</span>
+            </a>
+
+            <div class="nav-menu" id="navMenu">
+
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+
+            </div>
+
+            <div class="nav-actions">
+
+                <button id="themeToggle" class="icon-button" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <button id="menuToggle" class="icon-button menu-toggle" aria-label="Open menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+
+    <main>
+
+        <section id="home" class="hero">
+
+            <div class="hero-background"></div>
+
+            <div class="container hero-content">
+
+                <div class="hero-text reveal">
+
+                    <p class="hero-greeting">
+                        Hello, I'm
+                    </p>
+
+                    <h1>
+                        Supam <span>Thapa</span>
+                    </h1>
+
+                    <h2>
+                        <span id="typingText"></span>
+                    </h2>
+
+                    <p class="hero-description">
+                        I am a student and aspiring web developer who enjoys
+                        learning programming, building websites, and solving
+                        problems through code.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#contact" class="btn btn-primary">
+                            Contact Me
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#projects" class="btn btn-outline">
+                            View My Work
+                        </a>
+
+                    </div>
+
+                    <div class="social-links">
+
+                        <a
+                            href="https://github.com/Useless-me67"
+                            target="_blank"
+                            aria-label="GitHub"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a
+                            href="https://www.instagram.com/supamnahh"
+                            target="_blank"
+                            aria-label="Instagram"
+                        >
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a
+                            href="https://www.facebook.com/"
+                            target="_blank"
+                            aria-label="Facebook"
+                        >
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-card reveal">
+
+                    <div class="code-window">
+
+                        <div class="window-header">
+                            <span class="window-dot red"></span>
+                            <span class="window-dot yellow"></span>
+                            <span class="window-dot green"></span>
+                        </div>
+
+                        <div class="code-content">
+
+                            <p>
+                                <span class="purple">const</span>
+                                developer
+                                <span class="white">=</span>
+                                <span class="blue">{</span>
+                            </p>
+
+                            <p class="indent">
+                                name:
+                                <span class="green">"Supam Thapa"</span>,
+                            </p>
+
+                            <p class="indent">
+                                age:
+                                <span class="orange">14</span>,
+                            </p>
+
+                            <p class="indent">
+                                skills:
+                                <span class="blue">[</span>
+                            </p>
+
+                            <p class="double-indent">
+                                <span class="green">"HTML"</span>,
+                            </p>
+
+                            <p class="double-indent">
+                                <span class="green">"CSS"</span>,
+                            </p>
+
+                            <p class="double-indent">
+                                <span class="green">"Python"</span>
+                            </p>
+
+                            <p class="indent">
+                                <span class="blue">]</span>
+                            </p>
+
+                            <p>
+                                <span class="blue">}</span>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="#about" class="scroll-down">
+                <span>Scroll Down</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section id="about" class="section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-number">01</span>
+
+                    <div>
+                        <p class="section-label">Get to know me</p>
+                        <h2>About Me</h2>
+                    </div>
+
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div class="about-card reveal">
+
+                        <div class="about-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+
+                        <h3>Student Developer</h3>
+
+                        <p>
+                            I'm Supam Thapa, a student at Oxford Secondary
+                            School with a growing passion for programming
+                            and software development.
+                        </p>
+
+                    </div>
+
+
+                    <div class="about-content reveal">
+
+                        <p class="large-text">
+                            I'm a student who loves exploring technology,
+                            learning how software works, and turning ideas
+                            into something useful with code.
+                        </p>
+
+                        <p>
+                            I am currently studying in Grade 8 and developing
+                            my skills in HTML, CSS, and Python. I especially
+                            enjoy programming because it gives me a way to
+                            solve problems creatively and continuously learn
+                            something new.
+                        </p>
+
+                        <p>
+                            My goal is to keep improving my technical skills,
+                            build interesting projects, and eventually work
+                            on real-world software and websites.
+                        </p>
+
+                        <div class="about-info">
+
+                            <div>
+                                <span>Name</span>
+                                <strong>Supam Thapa</strong>
+                            </div>
+
+                            <div>
+                                <span>Education</span>
+                                <strong>Grade 8</strong>
+                            </div>
+
+                            <div>
+                                <span>School</span>
+                                <strong>Oxford Secondary School</strong>
+                            </div>
+
+                            <div>
+                                <span>Location</span>
+                                <strong>Butwal, Nepal</strong>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section id="skills" class="section section-alt">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-number">02</span>
+
+                    <div>
+                        <p class="section-label">What I know</p>
+                        <h2>My Skills</h2>
+                    </div>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+                    <div class="skill-card reveal">
+
+                        <div class="skill-top">
+                            <div class="skill-icon html">
+                                <i class="fa-brands fa-html5"></i>
+                            </div>
+
+                            <span>Basic</span>
+                        </div>
+
+                        <h3>HTML</h3>
+
+                        <p>
+                            Building the structure and content of websites.
+                        </p>
+
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 45%"></div>
+                        </div>
+
+                        <small>45%</small>
+
+                    </div>
+
+
+                    <div class="skill-card reveal">
+
+                        <div class="skill-top">
+                            <div class="skill-icon css">
+                                <i class="fa-brands fa-css3-alt"></i>
+                            </div>
+
+                            <span>Rookie</span>
+                        </div>
+
+                        <h3>CSS</h3>
+
+                        <p>
+                            Styling websites and experimenting with layouts
+                            and responsive designs.
+                        </p>
+
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 30%"></div>
+                        </div>
+
+                        <small>30%</small>
+
+                    </div>
+
+
+                    <div class="skill-card reveal">
+
+                        <div class="skill-top">
+                            <div class="skill-icon python">
+                                <i class="fa-brands fa-python"></i>
+                            </div>
+
+                            <span>Intermediate</span>
+                        </div>
+
+                        <h3>Python</h3>
+
+                        <p>
+                            Writing programs, solving problems, and learning
+                            programming concepts.
+                        </p>
+
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 65%"></div>
+                        </div>
+
+                        <small>65%</small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+
+        <section id="education" class="section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-number">03</span>
+
+                    <div>
+                        <p class="section-label">My academic journey</p>
+                        <h2>Education</h2>
+                    </div>
+
+                </div>
+
+
+                <div class="timeline">
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-date">
+                            2026 — Present
+                        </div>
+
+                        <div class="timeline-content">
+
+                            <span class="timeline-tag">
+                                School
+                            </span>
+
+                            <h3>Oxford Secondary School</h3>
+
+                            <h4>Grade 8</h4>
+
+                            <p>
+                                I am a dedicated student developing my
+                                knowledge in academics and technology,
+                                with a particular interest in programming
+                                and software development.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section id="projects" class="section section-alt">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-number">04</span>
+
+                    <div>
+                        <p class="section-label">Things I've built</p>
+                        <h2>Projects</h2>
+                    </div>
+
+                </div>
+
+
+                <div class="project-filters reveal">
+
+                    <button class="filter-btn active" data-filter="all">
+                        All
+                    </button>
+
+                    <button class="filter-btn" data-filter="web">
+                        Web
+                    </button>
+
+                    <button class="filter-btn" data-filter="python">
+                        Python
+                    </button>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+                    <!-- Project 1 -->
+
+                    <article class="project-card reveal" data-category="web">
+
+                        <div class="project-image project-placeholder">
+
+                            <i class="fa-solid fa-globe"></i>
+
+                            <span>YOUR PROJECT</span>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-number">
+                                01
+                            </div>
+
+                            <h3>Web Project</h3>
+
+                            <p>
+                                Add one of your HTML/CSS projects here.
+                                You can replace this description with
+                                your actual project details.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 2 -->
+
+                    <article class="project-card reveal" data-category="python">
+
+                        <div class="project-image project-placeholder python-project">
+
+                            <i class="fa-brands fa-python"></i>
+
+                            <span>YOUR PROJECT</span>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-number">
+                                02
+                            </div>
+
+                            <h3>Python Project</h3>
+
+                            <p>
+                                Add one of your Python projects here,
+                                such as a calculator, game, automation
+                                program, or another application.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>Python</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project 3 -->
+
+                    <article class="project-card reveal" data-category="web">
+
+                        <div class="project-image project-placeholder">
+
+                            <i class="fa-solid fa-laptop-code"></i>
+
+                            <span>COMING SOON</span>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <div class="project-number">
+                                03
+                            </div>
+
+                            <h3>Future Project</h3>
+
+                            <p>
+                                A space for your next project. Keep learning,
+                                keep building, and add it here when it's ready.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EXPERIENCE ================= -->
+
+        <section id="experience" class="section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-number">05</span>
+
+                    <div>
+                        <p class="section-label">Professional journey</p>
+                        <h2>Experience</h2>
+                    </div>
+
+                </div>
+
+
+                <div class="empty-state reveal">
+
+                    <div class="empty-icon">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+
+                    <h3>Just Getting Started</h3>
+
+                    <p>
+                        I currently don't have professional work experience.
+                        I'm focusing on learning, building projects, and
+                        developing my programming skills.
+                    </p>
+
+                    <span class="future-badge">
+                        <i class="fa-solid fa-seedling"></i>
+                        Future Developer
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <section id="services" class="section section-alt">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-number">06</span>
+
+                    <div>
+                        <p class="section-label">What I am learning</p>
+                        <h2>Services</h2>
+                    </div>
+
+                </div>
+
+
+                <div class="services-grid">
+
+                    <div class="service-card reveal">
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+
+                        <h3>Web Development</h3>
+
+                        <p>
+                            Creating simple and responsive websites while
+                            continuing to improve my HTML and CSS skills.
+                        </p>
+
+                    </div>
+
+
+                    <div class="service-card reveal">
+
+                        <div class="service-icon">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+
+                        <h3>Python Programming</h3>
+
+                        <p>
+                            Developing Python programs and practicing
+                            problem-solving through code.
+                        </p>
+
+                    </div>
+
+
+                    <div class="service-card reveal">
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+
+                        <h3>Problem Solving</h3>
+
+                        <p>
+                            Learning how to break complex problems into
+                            smaller and manageable programming tasks.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RESUME ================= -->
+
+        <section id="resume" class="section resume-section">
+
+            <div class="container">
+
+                <div class="resume-card reveal">
+
+                    <div>
+
+                        <p class="section-label">
+                            Want to know more?
+                        </p>
+
+                        <h2>
+                            Download My Resume
+                        </h2>
+
+                        <p>
+                            My resume contains my education, skills,
+                            programming interests, and other information.
+                        </p>
+
+                    </div>
+
+                    <a
+                        href="resume.pdf"
+                        download="Supam-Thapa-Resume.pdf"
+                        class="btn btn-primary"
+                    >
+                        <i class="fa-solid fa-download"></i>
+                        Download CV
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TESTIMONIALS ================= -->
+
+        <section id="testimonials" class="section section-alt">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-number">07</span>
+
+                    <div>
+                        <p class="section-label">My journey</p>
+                        <h2>Testimonials</h2>
+                    </div>
+
+                </div>
+
+
+                <div class="empty-state reveal">
+
+                    <div class="empty-icon">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+
+                    <h3>Testimonials Coming Soon</h3>
+
+                    <p>
+                        As I continue learning and working on projects,
+                        this section will showcase feedback and experiences
+                        from future collaborations.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-number">08</span>
+
+                    <div>
+                        <p class="section-label">Let's connect</p>
+                        <h2>Contact Me</h2>
+                    </div>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+                    <div class="contact-info reveal">
+
+                        <h3>
+                            Have a question or want to connect?
+                        </h3>
+
+                        <p>
+                            Feel free to send me a message. I'm always
+                            interested in learning, discussing technology,
+                            and connecting with other people interested
+                            in programming.
+                        </p>
+
+
+                        <div class="contact-details">
+
+                            <a href="mailto:thapasupam@gmail.com">
+
+                                <span class="contact-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </span>
+
+                                <div>
+                                    <small>Email</small>
+                                    <strong>thapasupam@gmail.com</strong>
+                                </div>
+
+                            </a>
+
+
+                            <a href="tel:9847200287">
+
+                                <span class="contact-icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </span>
+
+                                <div>
+                                    <small>Phone</small>
+                                    <strong>9847200287</strong>
+                                </div>
+
+                            </a>
+
+
+                            <div>
+
+                                <span class="contact-icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </span>
+
+                                <div>
+                                    <small>Location</small>
+                                    <strong>Butwal, Nepal</strong>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <form
+                        class="contact-form reveal"
+                        id="contactForm"
+                    >
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+
+                                <label for="name">
+                                    Name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    placeholder="Your name"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="email">
+                                    Email
+                                </label>
+
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="Your email"
+                                    required
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="subject">
+                                Subject
+                            </label>
+
+                            <input
+                                type="text"
+                                id="subject"
+                                name="subject"
+                                placeholder="What is this about?"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="message">
+                                Message
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                placeholder="Write your message..."
+                                required
+                            ></textarea>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="btn btn-primary submit-button"
+                        >
+                            Send Message
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+
+                <a href="#home" class="logo">
+                    Supam<span>.</span>
+                </a>
+
+                <p>
+                    Student • Programmer • Future Developer
+                </p>
+
+            </div>
+
+
+            <div class="footer-socials">
+
+                <a
+                    href="https://github.com/Useless-me67"
+                    target="_blank"
+                    aria-label="GitHub"
+                >
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a
+                    href="https://www.instagram.com/supamnahh"
+                    target="_blank"
+                    aria-label="Instagram"
+                >
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a
+                    href="mailto:thapasupam@gmail.com"
+                    aria-label="Email"
+                >
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="container copyright">
+
+            <p>
+                © <span id="year"></span> Supam Thapa. All rights reserved.
+            </p>
+
+            <a href="#home">
+                Back to top ↑
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
